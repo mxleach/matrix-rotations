@@ -1,0 +1,31 @@
+body {
+    background-color: #000235;
+    
+}
+
+button {
+    background-color: #D35D4F;
+    border: none; 
+    color: white;
+    padding: 15px 32px;
+    
+    
+    
+}
+
+#matrix {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 10px;
+    padding-top: 40px;
+    justify-content: center;
+    
+  }
+  div {
+    background-color: #ABAEF1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
