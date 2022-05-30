@@ -13,6 +13,12 @@ button {
     
 }
 
+button:hover {
+  background-color: rgb(200, 112, 112);
+  color: black;
+  cursor: pointer;
+}
+
 #matrix {
     display: grid;
     grid-template-columns: repeat(3, 60px);
